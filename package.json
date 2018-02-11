@@ -1,6 +1,6 @@
 {
   "name": "egg-cos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tencent cloud cos plugin for egg",
   "eggPlugin": {
     "name": "cos"
