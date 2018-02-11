@@ -1,6 +1,6 @@
 {
   "name": "egg-cos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "tencent cloud cos plugin for egg",
   "eggPlugin": {
     "name": "cos"
@@ -39,7 +39,8 @@
   "files": [
     "app.js",
     "agent.js",
-    "config"
+    "config",
+    "lib"
   ],
   "ci": {
     "version": "8, 9"
