@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.2.6"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
@@ -44,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-cos.git"
+    "url": "git+https://github.com/romoo/egg-cos.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/romoo/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-cos#readme",
+  "homepage": "https://github.com/romoo/egg-cos#readme",
   "author": "romoo",
   "license": "MIT"
 }

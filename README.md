@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-cos.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-cos
-[travis-image]: https://img.shields.io/travis/eggjs/egg-cos.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-cos
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-cos.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-cos?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-cos.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-cos
+[travis-image]: https://img.shields.io/travis/romoo/egg-cos.svg?style=flat-square
+[travis-url]: https://travis-ci.org/romoo/egg-cos
+[codecov-image]: https://img.shields.io/codecov/c/github/romoo/egg-cos.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/romoo/egg-cos?branch=master
+[david-image]: https://img.shields.io/david/romoo/egg-cos.svg?style=flat-square
+[david-url]: https://david-dm.org/romoo/egg-cos
 [snyk-image]: https://snyk.io/test/npm/egg-cos/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-cos
 [download-image]: https://img.shields.io/npm/dm/egg-cos.svg?style=flat-square
@@ -45,18 +45,26 @@ exports.cos = {
 ```js
 // {app_root}/config/config.default.js
 exports.cos = {
+  client: {
+    secretId: '',
+    secretKey: '',
+    bucket: '',
+    region: '',
+  }
 };
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
+Init in egg agent, default is `false`:
 
-## Example
-
-<!-- example here -->
+```js
+exports.cos = {
+  useAgent: true,
+};
+```
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/romoo/egg-cos/issues).
 
 ## License
 
