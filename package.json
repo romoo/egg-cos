@@ -1,6 +1,6 @@
 {
   "name": "egg-cos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "tencent cloud cos plugin for egg",
   "eggPlugin": {
     "name": "cos"
@@ -50,7 +50,7 @@
     "url": "git+https://github.com/romoo/egg-cos.git"
   },
   "bugs": {
-    "url": "https://github.com/romoo/egg/issues"
+    "url": "https://github.com/romoo/egg-cos/issues"
   },
   "homepage": "https://github.com/romoo/egg-cos#readme",
   "author": "romoo",
