@@ -9,12 +9,10 @@
 
 [npm-image]: https://img.shields.io/npm/v/@shuang6/egg-cos.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@shuang6/egg-cos
-[travis-image]: https://img.shields.io/travis/shuang6/@shuang6/egg-cos.svg?style=flat-square
-[travis-url]: https://travis-ci.org/shuang6/@shuang6/egg-cos
-[codecov-image]: https://img.shields.io/codecov/c/github/shuang6/@shuang6/egg-cos.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/shuang6/@shuang6/egg-cos?branch=master
-[david-image]: https://img.shields.io/david/shuang6/@shuang6/egg-cos.svg?style=flat-square
-[david-url]: https://david-dm.org/shuang6/@shuang6/egg-cos
+[codecov-image]: https://img.shields.io/codecov/c/github/shuang6/egg-cos.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/shuang6/egg-cos?branch=master
+[david-image]: https://img.shields.io/david/shuang6/egg-cos.svg?style=flat-square
+[david-url]: https://david-dm.org/shuang6/egg-cos
 [snyk-image]: https://snyk.io/test/npm/@shuang6/egg-cos/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/@shuang6/egg-cos
 [download-image]: https://img.shields.io/npm/dm/@shuang6/egg-cos.svg?style=flat-square
