@@ -1,6 +1,6 @@
 {
-  "name": "egg-cos",
-  "version": "1.0.3",
+  "name": "@shuang6/egg-cos",
+  "version": "0.0.1-beta",
   "description": "tencent cloud cos plugin for egg",
   "eggPlugin": {
     "name": "cos"
@@ -37,6 +37,7 @@
     "autod": "autod"
   },
   "files": [
+    "app",
     "app.js",
     "agent.js",
     "config",
@@ -47,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romoo/egg-cos.git"
+    "url": "git+https://github.com/shuang6/egg-cos.git"
   },
   "bugs": {
-    "url": "https://github.com/romoo/egg-cos/issues"
+    "url": "https://github.com/shuang6/egg-cos/issues"
   },
-  "homepage": "https://github.com/romoo/egg-cos#readme",
-  "author": "romoo",
+  "homepage": "https://github.com/shuang6/egg-cos#readme",
+  "author": "shuang6",
   "license": "MIT"
 }
